@@ -60,23 +60,7 @@ function MatchHeight() {
   }
   MatchHeight();
 
-  //slider
-
-  //  var swiper = new Swiper(".mySwiper", {
-  //    loop:true,
-  //     cssMode: true,
-  //     navigation: {
-  //       nextEl: ".experience_next_btn",
-  //       prevEl: ".experience_prev_btn",
-  //     },
-  //     pagination: {
-  //       el: ".swiper-pagination",
-  //        clickable: true,
-  //     },
-  //     mousewheel: true,
-  //     keyboard: true,
-  //   });
-
+  
 
   const sliderContent = [
   {
