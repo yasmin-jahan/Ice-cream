@@ -1,0 +1,1106 @@
+@media only screen and (max-width:1400px) {
+
+    /* hero-section-starts */
+    .hero_video video {
+        width: 500px;
+        height: 500px;
+
+    }
+
+    /* hero-section-ends */
+
+    /* card-section-starts */
+    .card_heading p {
+        padding: 0px 385px;
+    }
+
+    .card_image {
+        max-width: 315px;
+        height: 320px;
+    }
+
+    /* card-section-ends */
+
+    /* experience-section-starts */
+    .experience_slider_image {
+        height: 600px;
+    }
+
+    .experience_pagination_content p {
+        padding: 0 250px;
+    }
+
+    .experience_section .experience_pagination.swiper-pagination-bullets {
+        bottom: 50px;
+    }
+
+    .experience_includes_area {
+        margin-bottom: 40px;
+    }
+
+    /* experience-section-ends */
+
+    /* tickets-section-starts */
+    .ticket_small_title p span {
+        display: inline-block;
+    }
+
+    .ticket_small_title p span {
+        margin-top: 5px;
+    }
+
+    /* tickets-section-ends */
+
+    /* location-section-starts */
+    .location_image {
+        max-width: 545px;
+        height: 700px;
+    }
+
+    .location_heading h2 {
+        font-size: 44px;
+    }
+
+    /* location-section-ends */
+
+    /* faq-section-starts */
+    .faq_heading h2 {
+        font-size: 44px;
+    }
+
+    /* faq-section-ends */
+}
+
+@media only screen and (max-width:1199px) {
+
+    /* hero-section-starts */
+    .hero_video video {
+        width: 430px;
+        height: 430px;
+    }
+
+    .common_btn a {
+        font-size: 18px;
+    }
+
+    /* hero-section-ends */
+
+    /* card-section-starts */
+    .card_heading p {
+        padding: 0px 285px;
+    }
+
+    .card_image {
+        max-width: 250px;
+        height: 290px;
+    }
+
+    /* card-section-ends */
+
+    /* experience-section-starts */
+    .experience_area h2 {
+        margin-bottom: 20px;
+    }
+
+    .experience_area h2 {
+        letter-spacing: 1px;
+    }
+
+    .includes_content h2 {
+        line-height: 1;
+    }
+
+    .experience_pagination_btn .common_experience_btn {
+        width: 60px;
+        height: 60px;
+    }
+
+    .common_experience_btn i {
+        font-size: 30px;
+    }
+
+    .experience_pagination_content p {
+        padding: 0 100px;
+    }
+
+    /* experience-section-ends */
+
+    /* ticket-section-starts */
+    .ticket_row {
+        justify-content: center;
+        row-gap: 30px;
+    }
+
+    .ticket_heading h2 {
+        letter-spacing: 1px;
+    }
+
+    .ticket_card_content_area.third:before {
+
+        background-color: #f6dadf;
+    }
+
+    /* ticket-section-ends */
+
+    /* location-section-starts */
+    .location_image {
+        max-width: 450px;
+        height: 600px;
+    }
+
+    .location_heading h2 {
+        font-size: 38px;
+        letter-spacing: 1px;
+    }
+
+    .location_text_content h5 {
+        font-size: 28px;
+    }
+
+    .schedule ul li {
+        font-size: 17px;
+    }
+
+    /* location-section-ends */
+
+    /* faq-section-starts */
+    .accordion_head {
+        padding: 25px;
+    }
+
+    .accordion_head p {
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+
+    .faq_heading h2 {
+        font-size: 38px;
+    }
+
+    /* faq-section-ends */
+
+    /* banner-section-starts */
+    .banner_section {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    /* banner-section-ends */
+
+    /* footer-section-starts */
+    .footer_links_area {
+        margin-bottom: 20px;
+    }
+
+    .privacy_links {
+        gap: 8px;
+    }
+
+    /* footer-section-ends */
+}
+
+@media only screen and (max-width:991px) {
+
+    /* header-section-starts */
+    .header_nav {
+        position: fixed;
+        height: 100%;
+        top: 0;
+        z-index: 9999;
+        font-size: 18px;
+        background: gray;
+        width: 100%;
+        left: -100%;
+        transition: left 0.5s ease;
+        background-color: #f5d9df;
+        overflow-y: auto;
+    }
+    .mean-expand {
+    display: flex;
+}
+.main_header_nav ul li .custom_dropdown {
+    display: none;
+}
+    .hamburger {
+        display: block;
+    }
+
+    .header_mobile_nav_active {
+        left: 0;
+    }
+
+    .main_ul {
+        padding: 20px !important;
+    }
+
+    .main_ul li {
+        display: block;
+        width: 100%;
+    }
+
+    .mobile_header_nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        border-bottom: 1px solid #8e1537;
+        background-color: #f89aba;
+    }
+
+    .close_btn {
+        font-size: 20px;
+        color: #ffffff;
+    }
+
+    .main_ul>li {
+        background-color: #ffffff;
+        border-radius: 50px;
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+
+    .main_ul>li>a {
+        color: #8e1537;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 25px;
+        text-decoration: none;
+    }
+
+    .tickets a {
+        color: #8e1537 !important;
+    }
+
+    .main_header_nav .mega_menu a {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main_header_nav ul li .custom_dropdown {
+        position: static;
+        background-color: transparent;
+        display: none;
+        width: 100%;
+        padding-left: 40px !important;
+    }
+
+    .mean-expand {
+        cursor: pointer;
+    }
+
+    .active .mean-expand i {
+        transform: rotate(180deg);
+        transition: 0.3s;
+    }
+.custom_dropdown li a:hover {
+    background-color: transparent;
+}
+.mega_menu a.active .custom_dropdown {
+    opacity: 1!important;
+    visibility: visible!important;
+    transform: translateY(0)!important;
+}
+
+    /* header-section-ends */
+
+    /* hero-section-starts */
+    .hero_section {
+        padding: 60px 0;
+    }
+
+    .hero_area .row {
+        row-gap: 40px;
+    }
+
+    .hero_video video {
+        width: 100%;
+        height: 650px;
+    }
+
+    .hero_content_area {
+        text-align: center;
+    }
+
+    .hero_section::after {
+        bottom: -35px;
+        height: 40px;
+
+        background: radial-gradient(circle at 35px 0,
+                #f6dadf 34px,
+                transparent 35px);
+
+        background-size: 70px 45px;
+    }
+
+
+    /* hero-section-ends */
+
+    /* card-section-starts */
+    .card_heading h2 {
+        padding: 0;
+        letter-spacing: 1px;
+    }
+
+    .card_heading p {
+        padding: 0;
+    }
+
+    .card_image {
+        max-width: 100%;
+        height: 290px;
+    }
+
+    .card_row {
+        row-gap: 30px;
+        justify-content: center;
+    }
+
+    /* card-section-ends */
+
+
+    /* experience-section-starts */
+    .experience_pagination_content p {
+        padding: 0 50px;
+    }
+
+    .experience_pagination_content h3 {
+        margin-bottom: 15px;
+    }
+
+    .experience_includes_area_row {
+        row-gap: 40px;
+    }
+
+    /* experience-section-ends */
+
+    /* ticket-section-starts */
+    .ticket_section::after {
+        top: -35px;
+        height: 40px;
+
+        background: radial-gradient(circle at 35px 100%,
+                #ea0029 38px,
+                transparent 35px);
+
+        background-size: 70px 45px;
+    }
+
+    .ticket_card_content_area {
+        padding: 30px 20px;
+    }
+
+    .ticket_main_title h4 {
+        font-size: 26px;
+    }
+
+    .ticket_price h5 strong {
+        font-size: 45px;
+    }
+
+    /* ticket-section-ends */
+
+    /* location-section-starts */
+    .location_image {
+        max-width: 100%;
+        height: 850px;
+    }
+
+    .location_row {
+        row-gap: 40px;
+    }
+
+    .location_heading h2 {
+        font-size: 35px;
+        line-height: 1.2;
+    }
+
+    /* location-section-ends */
+
+    /* faq-section-starts */
+    .faq_heading h2 {
+        letter-spacing: 1px;
+    }
+
+    /* faq-section-ends */
+
+    /* banner-section-starts */
+    .banner_content h2 {
+        letter-spacing: 1px;
+        line-height: 1.2;
+    }
+
+    /* banner-section-ends */
+
+    /* faq-section-starts */
+    .faq_heading h2 {
+        font-size: 35px;
+        line-height: 1.2;
+    }
+
+    .faq_accordian {
+        max-width: 100%;
+    }
+
+    /* faq-section-ends */
+}
+
+
+@media only screen and (max-width:767px) {
+
+    /* hero-section-starts */
+    .hero_video video {
+        height: 550px;
+    }
+
+    /* hero-section-ends */
+
+    /* card-section-starts */
+    .card_heading h2 {
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .card_image {
+        height: 420px;
+    }
+
+    /* card-section-ends */
+
+    /* experience-section-starts */
+    .experience_pagination_content p {
+        font-size: 14px;
+    }
+
+    .experience_pagination_btn .common_experience_btn {
+        width: 50px;
+        height: 50px;
+    }
+
+    .common_experience_btn i {
+        font-size: 30px;
+    }
+
+    .experience_prev_btn {
+        left: 10px !important;
+    }
+
+    .experience_next_btn {
+        right: 10px !important;
+    }
+
+    /* experience-section-ends */
+
+    /* location-section-starts */
+    .location_image {
+        height: 650px;
+    }
+
+    .location_heading h2 {
+        font-size: 30px;
+    }
+
+    .ticket_card_content_area.second:before {
+        background-color: #f6dadf;
+    }
+
+    .location_content_row {
+        row-gap: 40px;
+    }
+
+    /* location-section-ends */
+
+    /* faq-section-starts */
+    .faq_heading h2 {
+        font-size: 30px;
+    }
+
+    /* faq-section-ends */
+
+    /* footer-section-starts */
+    .footer_left_area {
+        row-gap: 10px;
+    }
+
+    .footer_links_area {
+        margin-bottom: 0px;
+    }
+
+    .footer_content_area_row {
+        row-gap: 30px;
+    }
+
+    /* footer-section-ends */
+}
+
+
+@media only screen and (max-width:575px) {
+
+    /* hero-section-starts */
+    .hero_section {
+        padding: 30px 0;
+    }
+
+    .hero_video video {
+        height: 450px;
+    }
+
+    .hero_content_text .small_heading {
+        font-size: 15px;
+    }
+
+    .hero_content_text p {
+        font-size: 14px;
+    }
+
+    .common_btn a {
+        font-size: 16px;
+    }
+
+    .hero_btn {
+        margin-top: 25px;
+    }
+
+    /* hero-section-ends */
+
+    /* card-section-starts */
+    .card_heading h3 {
+        font-size: 15px;
+    }
+
+    .card_heading p {
+        font-size: 14px;
+    }
+
+    /* card-section-ends */
+
+    /* experience-section-starts */
+    .experience_area .small_heading {
+        font-size: 15px;
+    }
+
+    .experience_area h2 {
+        margin-bottom: 15px;
+    }
+
+    .experience_area p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .includes_image {
+        max-width: 190px;
+    }
+.experience_pagination_btn {
+    left: 10px;
+    right: 10px;
+}
+.experience_section .swiper-pagination-bullet-active {
+    width: 40px!important;
+    height: 5px;
+
+}
+.experience_section .swiper-pagination-bullet {
+    width: 20px;
+    height: 5px;
+}
+.experience_pagination_content p {
+    margin-bottom: 30px;
+    line-height: 1.4;
+}
+    .experience_slider_image {
+        height: 500px;
+    }
+
+    /* experience-section-ends */
+
+    /* ticket-section-starts */
+    .ticket_main_title h4 {
+        font-size: 22px;
+    }
+
+    .ticket_main_title p {
+        font-size: 18px;
+    }
+
+    /* ticket-section-ends */
+
+    /* location-section-starts */
+    .location_image {
+        height: 550px;
+    }
+
+    .location_heading h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .location_heading p {
+        font-size: 16px;
+    }
+
+    /* location-section-ends */
+
+    /* faq-section-starts */
+    .faq_heading h2 {
+        font-size: 28px;
+    }
+
+    .accordion_head p {
+        font-size: 22px;
+    }
+
+    .accordion_head {
+        margin-bottom: 10px;
+    }
+.faq_content p {
+    font-size: 16px;
+}
+.accordion_body {
+    padding: 15px 25px;
+}
+    /* faq-section-ends */
+
+    /* banner-section-starts */
+    .banner_section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    /* banner-section-ends */
+
+    /* footer-section-starts */
+    .footer_links ul {
+        padding-bottom: 20px;
+    }
+
+    /* footer-section-ends */
+
+}
+
+@media only screen and (max-width:480px) {
+
+    /* hero-section-starts */
+      .hero_section::after {
+        bottom: -20px;
+        height: 24px;
+
+        background: radial-gradient(
+            circle at 20px 0,
+            #f6dadf 19px,
+            transparent 20px
+        );
+
+        background-size: 40px 24px;
+        background-repeat: repeat-x;
+    }
+
+    /* hero-section-ends */
+
+    /* card-section-starts */
+    .card_image {
+        height: 350px;
+    }
+
+    .card_content_area {
+        padding: 15px;
+    }
+
+    .common_btn a {
+        font-size: 15px;
+    }
+
+    /* card-section-ends */
+
+    /* experience-section-starts */
+    .experience_includes_area {
+        padding: 30px;
+    }
+
+    .includes_image {
+        max-width: 155px;
+    }
+
+    .includes_content h2 {
+        margin-bottom: 30px;
+    }
+
+    .includes_listing ul li {
+        font-size: 14px;
+    }
+
+    .includes_listing ul li i {
+        font-size: 16px;
+    }
+   .experience_pagination_content h3 {
+        margin-bottom: 10px;
+        padding: 0 50px;
+    }
+    .experience_pagination_content p {
+        padding: 0 40px;
+    }
+        .common_experience_btn i {
+        font-size: 20px;
+    }
+        .experience_pagination_content p {
+        font-size: 13px;
+    }
+        .experience_pagination_btn .common_experience_btn {
+        width: 40px;
+        height: 40px;
+    }
+    .experience_pagination_btn {
+    padding: 15px 25px;
+}
+    .experience_slider_image {
+        height: 485px;
+    }
+    .experience_pagination_btn {
+    bottom: 15px;
+}
+    .experience_section .experience_pagination.swiper-pagination-bullets {
+        bottom: 30px;
+    }
+     .experience_pagination_content h3 {
+        font-size: 18px!important;
+    }
+    /* experience-section-ends */
+
+    /* ticket-section-starts */
+    .ticket_section::after {
+        top: -20px;
+        height: 24px;
+
+        background: radial-gradient(
+            circle at 20px 100%,
+            #ea0029 22px,
+            transparent 20px
+        );
+
+        background-size: 40px 24px;
+        background-repeat: repeat-x;
+    }
+    .ticket_price {
+        margin-top: 20px;
+    }
+
+    .ticket_listing ul {
+        margin-top: 30px;
+    }
+
+    .ticket_price h5 strong {
+        font-size: 40px;
+    }
+
+    .ticket_heading {
+        padding-top: 45px;
+    }
+
+    .ticket_main_title p {
+        font-size: 16px;
+    }
+
+    .ticket_listing ul li {
+        font-size: 15px;
+    }
+
+    .ticket_listing ul li svg {
+        height: 22px;
+    }
+
+    /* ticket-section-ends */
+
+    /* location-section-starts */
+        .location_text_content h5 {
+        font-size: 22px;
+    }
+    .location_text_content h5 i {
+    font-size: 22px;
+    margin-right: 4px;
+}
+.location_text_content p {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+    .schedule ul li {
+        font-size: 15px;
+    }
+    /* location-section-ends */
+
+    /* faq-section-starts */
+        .accordion_head p {
+        font-size: 18px;
+    }
+    .faq_content  p {
+    font-size: 13px;
+}
+    .accordion_head {
+        padding: 20px 25px;
+    }
+  .accordion_head span {
+    font-size: 27px;
+}
+
+    /* faq-section-ends */
+
+    /* banner-section-starts */
+    .banner_section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    /* banner-section-ends */
+
+    /* footer-section-starts */
+    .footer_link_heading h3 {
+        font-size: 20px;
+    }
+   .footer_links ul li a {
+   font-size: 14px;
+}
+.footer_location a {
+    font-size: 15px;
+}
+.coptyright_text p {
+   font-size: 14px;
+}
+.privacy_links a {
+ font-size: 14px;
+}
+    /* footer-section-ends */
+
+
+}
+
+@media only screen and (max-width:360px) {
+
+    /* hero-section-starts */
+    .hero_video video {
+        height: 350px;
+    }
+
+    .common_btn a {
+        font-size: 14px;
+    }
+
+    /* hero-section-ends */
+
+    /* card-section-starts */
+    .card_image {
+        height: 250px;
+    }
+
+    .card_content_area {
+        padding: 13px;
+    }
+
+    .card_row {
+        row-gap: 20px;
+    }
+
+    /* card-section-ends */
+
+    /* experience-section-starts */
+    .experience_includes_area {
+        padding: 30px 20px;
+    }
+
+    .experience_includes_area_row {
+        row-gap: 30px;
+    }
+
+    .includes_listing_heading h5 {
+        font-size: 18px;
+    }
+
+    .includes_image {
+        max-width: 121px;
+    }
+
+    .includes_listing ul li {
+        font-size: 13px;
+    }
+    .experience_pagination_content h3 {
+        padding: 0 40px;
+        font-size: 16px!important;
+    }
+    .experience_slider_image {
+        height: 400px;
+    }
+        .experience_section .swiper-pagination-bullet-active {
+        width: 32px !important;
+        height: 3px;
+    }
+        .experience_section .swiper-pagination-bullet {
+        width: 15px;
+        height: 3px;
+        margin: 2px!important;
+    }
+        .experience_pagination_btn .common_experience_btn {
+        width: 28px;
+        height: 28px;
+    }
+        .common_experience_btn i {
+        font-size: 13px;
+    }
+        .experience_pagination_content p {
+        padding: 0 15px;
+    }
+    /* experience-section-ends */
+
+    /* ticket-section-starts */
+    .ticket_listing ul li svg {
+        height: 20px;
+        width: 20px;
+    }
+
+    .ticket_listing ul li {
+        font-size: 14px;
+        column-gap: 6px;
+    }
+
+    .ticket_small_title p {
+        font-size: 15px;
+    }
+.ticket_heading h2 {
+ margin-bottom: 35px;
+}
+    .ticket_main_title p {
+
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .ticket_card_content_area {
+        padding: 25px 15px;
+    }
+
+    .ticket_price h5 {
+        font-size: 14px;
+    }
+
+    .ticket_price h5 strong {
+        font-size: 36px;
+    }
+
+    .ticket_price {
+        margin-top: 10px;
+    }
+
+    .common_btn a {
+        padding: 12px 20px;
+    }
+
+    .ticket_heading h3 {
+        font-size: 14px;
+    }
+
+    .price_time p {
+        font-size: 14px;
+    }
+
+    .ticket_row {
+
+        row-gap: 25px;
+    }
+    .ticket_small_title {
+    margin-bottom: 20px;
+}
+    .ticket_listing ul li.simple_dot svg {
+height: 23px;
+width: 23px;
+}
+    /* ticket-section-ends */
+
+    /* location-section-starts */
+        .location_image {
+        height: 350px;
+    }
+        .location_heading h2 {
+        font-size: 24px;
+        line-height: 1.1;
+    }
+        .location_heading p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+        .location_text_content h5 {
+        font-size: 20px;
+        margin-bottom: 13px;
+    }
+        .location_text_content h5 i {
+        font-size: 20px;
+    }
+        .schedule ul li {
+        font-size: 13px;
+    }
+    /* location-section-ends */
+
+    /* faq-section-starts */
+        .faq_heading h2 {
+        font-size: 24px;
+        line-height: 1.1;
+    }
+    .accordion_body {
+    padding: 15px 15px;
+}
+    .faq_content ul li {
+  font-size: 14px;
+}
+.faq_content ul li i {
+    font-size: 17px;
+    margin-right: 7px;
+}
+    .accordion_head {
+        padding: 10px 15px;
+    }
+    .accordion_head p {
+        font-size: 16px;
+    }
+    .accordion_head span {
+    font-size: 23px;
+}
+    /* faq-section-ends */
+
+    /* banner-section-starts */
+        .banner_section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    /* banner-section-ends */
+
+    /* footer-section-starts */
+        .footer_links ul {
+        padding-bottom: 10px;
+    }
+        .footer_link_heading h3 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .footer_links ul li a {
+   font-size: 13px;
+   gap: 15px;
+}
+.footer_link_text span {
+    font-size: 13px;
+}
+.footer_links a {
+   font-size: 16px;
+}
+.footer_links {
+    margin-bottom: 10px;
+    column-gap: 12px;
+}
+.footer_location a {
+    font-size: 13px;
+}
+.footer_location-area {
+    gap: 20px;
+}
+.coptyright_text p {
+   font-size: 13px;
+}
+.privacy_links a {
+ font-size: 13px;
+}
+    /* footer-section-ends */
+}
