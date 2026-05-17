@@ -242,6 +242,7 @@
         display: flex;
         justify-content: space-between;
         padding: 20px;
+        align-items: center;
         border-bottom: 1px solid #8e1537;
         background-color: #f89aba;
     }
@@ -256,6 +257,7 @@
         border-radius: 50px;
         margin-bottom: 20px;
         overflow: hidden;
+        border-radius: 0;
     }
 
     .main_ul>li>a {
@@ -295,12 +297,10 @@
 .custom_dropdown li a:hover {
     background-color: transparent;
 }
-.mega_menu a.active .custom_dropdown {
-    opacity: 1!important;
-    visibility: visible!important;
-    transform: translateY(0)!important;
-}
 
+.custom_dropdown li a {
+    border-radius: 0;
+}
     /* header-section-ends */
 
     /* hero-section-starts */
@@ -534,6 +534,27 @@
 
 
 @media only screen and (max-width:575px) {
+    /* header-section-starts */
+    .main_logo {
+    max-width: 90px;
+}
+.hamburger {
+    font-size: 21px;
+}
+.main_ul>li {
+    padding: 20px 25px;
+    margin-bottom: 15px;
+}
+    .main_header_nav .mega_menu a, .main_header_nav ul li a {
+        padding: 5px 0px;
+    }
+    .main_header_nav ul li .custom_dropdown {
+        padding-left: 15px !important;
+    }
+    .main_ul>li>a {
+       padding: 5px;
+    }
+    /* header-section-ends */
 
     /* hero-section-starts */
     .hero_section {
@@ -678,6 +699,42 @@
 }
 
 @media only screen and (max-width:480px) {
+
+    /* header-section-starts */
+    header {
+        padding: 14px 0;
+    }
+        .main_logo {
+        max-width: 75px;
+    }
+        .hamburger {
+        font-size: 18px;
+    }
+        .mobile_header_nav {
+        padding: 14px 20px;
+    }
+        .main_ul {
+        padding: 20px 13px !important;
+    }
+        .main_ul>li {
+        padding: 14px 20px;
+        margin-bottom: 10px;
+    }
+    .main_ul li a{
+        font-size: 13px;
+    }
+        .main_header_nav .mega_menu a, .main_header_nav ul li a {
+        padding: 5px 12px;
+    }
+    .custom_dropdown li a{
+        font-size: 12px;
+    }
+    .custom_dropdown li {
+    margin: 6px 0;
+
+}
+}
+    /* header-section-ends */
 
     /* hero-section-starts */
       .hero_section::after {
@@ -869,9 +926,18 @@
     /* footer-section-ends */
 
 
-}
+
 
 @media only screen and (max-width:360px) {
+    /* hero-section-starts */
+        .main_ul {
+        padding: 13px 8px !important;
+    }
+        .main_ul>li {
+        padding: 14px 12px;
+        margin-bottom: 10px;
+    }
+    /* hero-section-ends */
 
     /* hero-section-starts */
     .hero_video video {
