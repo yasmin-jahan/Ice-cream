@@ -580,7 +580,9 @@
     .hero_btn {
         margin-top: 25px;
     }
-
+.hero_section {
+    margin-top: 65px;
+}
     /* hero-section-ends */
 
     /* card-section-starts */
@@ -750,7 +752,9 @@
         background-size: 40px 24px;
         background-repeat: repeat-x;
     }
-
+    .hero_section {
+        margin-top: 55px;
+    }
     /* hero-section-ends */
 
     /* card-section-starts */
