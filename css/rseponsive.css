@@ -735,8 +735,7 @@
     margin: 6px 0;
 
 }
-}
-    /* header-section-ends */
+/* header-section-ends */
 
     /* hero-section-starts */
       .hero_section::after {
@@ -928,6 +927,8 @@
  font-size: 14px;
 }
     /* footer-section-ends */
+}
+    
 
 
 
