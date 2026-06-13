@@ -96,17 +96,23 @@ const desc = document.querySelector(".experience_pagination_content p");
 var swiper = new Swiper(".mySwiper", {
 
   loop: true,
-  
 
   navigation: {
-    nextEl: ".experience_next_btn",
-    prevEl: ".experience_prev_btn",
-  },
+    nextEl: window.innerWidth <= 575
+        ? ".mobile-next"
+        : ".desktop-next",
+
+    prevEl: window.innerWidth <= 575
+        ? ".mobile-prev"
+        : ".desktop-prev",
+},
 
   pagination: {
-    el: ".experience_pagination",
+    el: window.innerWidth <= 575
+        ? ".mobile-pagination"
+        : ".desktop-pagination",
     clickable: true,
-  },
+},
 
   mousewheel: true,
   keyboard: true,
