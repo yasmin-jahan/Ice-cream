@@ -168,4 +168,85 @@ function MatchHeight() {
     });
 });
 
+
+// EVENT PAGE SLIDER
+ var swiper = new Swiper(".event_swiper", {
+      // spaceBetween: 30,
+       slidesPerView: 3,
+       loop: true,
+      // autoplay: {
+      //   delay: 3000,
+      //   disableOnInteraction: false,
+      // },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".event_next_btn",
+        prevEl: ".event_prev_btn",
+      },
+      breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
+      576: {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
+
+      
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 50,
+      },
+
+      1199: {
+        slidesPerView: 3,
+        spaceBetween: 50,
+      },
+       1400: {
+        slidesPerView: 3,
+        spaceBetween: 100,
+      },
+      
+    },
+    });
+
+    //  EVENT PAGE FAQ
+     function close_accordion_section() {
+        $('.event-accordion .event-accordion-section-title').removeClass('active');
+        $('.event-accordion .event-accordion-section-content').slideUp(300).removeClass('open');
+    }
+
+    $('.event-accordion-section-title').click(function(e) {
+        // Grab current anchor value
+        var currentAttrValue = $(this).attr('href');
+
+        if($(e.target).is('.active')) {
+            close_accordion_section();
+        }else {
+            close_accordion_section();
+
+            // Add active class to section title
+            $(this).addClass('active');
+            // Open up the hidden content panel
+            $('.event-accordion ' + currentAttrValue).slideDown(300).addClass('open');
+        }
+
+        e.preventDefault();
+    });
+
+});
+
+// SCROLL HEADER FOR EVENT PAGE
+  //scroll_header
+  window.addEventListener("scroll", function() {
+  const header = document.querySelector(".event_header");
+  if (window.scrollY > 30) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
 });
