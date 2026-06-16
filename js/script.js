@@ -250,3 +250,31 @@ function MatchHeight() {
     header.classList.remove("sticky");
   }
 });
+
+
+
+   
+$(document).ready(function () {
+  $('.event_link_content ul li:has(ul) > a').each(function () {
+    $(this).append('<span class="mean-expand-event"> <i class="fa-solid fa-angle-down"></i></span>')
+  });
+
+
+    $(".event_link_content ul li:has(ul) > a .mean-expand-event").on("click", function (e) {
+      e.preventDefault();
+      if ($(this).parent().hasClass("active")) {
+        $(this).parent().removeClass("active");
+        $(this).parent()
+          .siblings("ul")
+          .slideUp(200);
+      } else {
+        $(".event_link_content ul li:has(ul) > a").removeClass("active");
+        $(".event_link_content li ul").slideUp(200);
+        $(this).parent().addClass("active");
+        $(this).parent()
+          .siblings("ul")
+          .slideDown(200);
+      }
+    });
+  
+});
