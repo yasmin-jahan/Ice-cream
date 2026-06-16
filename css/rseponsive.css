@@ -1555,6 +1555,9 @@ font-size: 16px;
         .event_hero_heading h1 {
         font-size: 35px;
     }
+     .event_header.sticky{
+        padding: 14px 0;
+     }
         .event_hero_section {
         padding: 120px 0px;
         padding-bottom: 250px;
@@ -1633,6 +1636,15 @@ font-size: 16px;
     }
     /* hero-section-ends */
 
+    /* package-section-starts */
+        .event_text h2 {
+        font-size: 16px;
+    }
+        .event_content {
+        gap: 10px;
+    }
+    /* package-section-ends */
+
     /* perk-section-starts */
         .perk_img {
         max-width: 200px;
@@ -1657,5 +1669,14 @@ font-size: 16px;
         top: 38% !important;
     }
     /* feature-section-ends */
+
+    /* faq-section-starts */
+        .event-accordion-section a {
+        font-size: 14px;
+    }
+    .event-accordion-section-content p, .event-accordion-section-content li {
+    font-size: 14px;
+}
+    /* faq-section-ends */
  }
  /* EVENT PAGE ENDS */ 
