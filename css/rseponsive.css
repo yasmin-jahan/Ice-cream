@@ -1237,3 +1237,425 @@ width: 23px;
 }
     /* footer-section-ends */
 }
+
+
+
+
+ /* EVENT PAGE STARTS */ 
+
+ @media only screen and (max-width:1400px){
+/* package-section-starts */
+.package_content h2 {
+    font-size: 50px;
+}
+.event_content_wrapper {
+    padding: 100px 0;
+}
+ /* package-section-ends */
+
+ /* perk-section-starts */
+ .perk_heading h2 {
+  font-size: 50px;
+}
+.perk_img {
+    max-width: 400px;
+    height: 400px;
+}
+.perk_main_img {
+    height: 590px;
+}
+ /* perk-section-ends */
+
+ /* feature-section-starts */
+.feature_heading h2 {
+    font-size: 50px;
+}
+.feature_img {
+    height: 300px;
+    max-width: 300px;
+}
+.common_feature_swipper_btn {
+    position: absolute;
+    top: 42%!important;
+    transform: translateY(-50%);
+    z-index: 10;
+    width: auto;
+    height: auto;
+    margin-top: 0;
+}
+ /* feature-section-ends */
+
+ /* faq-section-starts */
+ .event_faq_heading h2 {
+    font-size: 50px;
+ }
+ .event-accordion {
+    max-width: 1140px;
+}
+ /* faq-section-ends */
+
+ }
+ 
+
+ @media only screen and (max-width:1199px){
+    /* hero-section-starts */
+.menu-item a {
+        font-size: 14px;
+        padding: 16px 40px;
+    }
+    .event_custom_dropdown li a {
+        font-size: 14px;
+        padding: 16px 40px;
+    }
+.event_hero_heading h1 {
+    font-size: 55px;
+}
+    /* hero-section-ends */
+
+    /* package-section-starts */
+        .package_content h2 {
+        font-size: 40px;
+    }
+    .event_text h2 {
+    font-size: 23px;
+}
+    /* package-section-ends */
+
+    /* feature-section-starts */
+        .feature_img {
+        height: 400px;
+        max-width: 100%;
+    }
+    /* feature-section-ends */
+
+    /* faq-section-starts */
+        .event-accordion {
+        padding: 0 40px;
+    }
+    /* faq-section-ends */
+ }
+
+ @media only screen and (max-width:991px){
+    /* header-section-starts */
+    .event_header {
+padding: 40px 0;
+}
+    /* header-section-ends */
+    /* hero-section-starts */
+        .event_hero_section {
+        padding: 230px 0px;
+        padding-bottom: 300px;
+    }
+    .event_custom_dropdown li {
+    margin: 9px 0;
+}
+    /* hero-section-ends */
+    /* package-section-starts */
+    .package_content h2{
+        padding: 0 80px;
+}
+
+    /* package-section-ends */
+
+    /* perk-section-starts */
+        .perk_heading h2 {
+        font-size: 45px;
+    }
+    .perk_img {
+    max-width: 350px;
+    height: 350px;
+}
+    .perk_main_img {
+        height: 550px;
+    }
+    /* perk-section-ends */
+
+    /* feature-section-starts */
+    .feature_heading h2 {
+        font-size: 45px;
+    }
+        .feature_img {
+        height: 270px;
+    }
+    .common_feature_swipper_btn i {
+    font-size: 30px;
+}
+.feature_content h3 {
+    padding-bottom: 14px;
+    margin-bottom: 0;
+}
+    /* feature-section-ends */
+
+    /* faq-section-starts */
+        .event_faq_heading h2 {
+        font-size: 45px;
+    }
+    /* faq-section-ends */
+ }
+ 
+
+ @media only screen and (max-width:767px){
+    /* hero-section-starts */
+       .event_hero_heading h1 {
+        font-size: 47px;
+    }
+    
+    /* hero-section-ends */
+     
+    /* package-section-starts */
+    .package_content_area{
+        display: block;
+    }
+    .package_content {
+           padding: 35px 0;
+        width: 100%;
+    }
+        .event_content_wrapper {
+            width: 100%;
+        }
+  .package_content h2 {
+        padding: 0 ;
+    }
+    /* package-section-ends */
+
+    /* perk-section-starts */
+        .perk_heading h2 {
+        font-size: 40px;
+    }
+    .perk_content_wrapper{
+        display: block;
+    }
+    .perk_content_area{
+        padding: 30px 0;
+        width: 100%;
+    }
+    .perk_img_area{
+        width: 100%;
+    }
+    /* perk-section-ends */
+
+    /* feature-section-starts */
+    .feature_slider_wrapper {
+    padding: 0 45px;
+}
+ .common_feature_swipper_btn {
+        top: 60% !important;
+    }
+        .feature_heading h2 {
+        font-size: 40px;
+    }
+        .feature_img {
+        height: 370px;
+    }
+    /* feature-section-ends */
+
+    /* faq-section-starts */
+        .event_faq_heading h2 {
+        font-size: 40px;
+    }
+     .event-accordion {
+        padding: 0 20px;
+    }
+    /* faq-section-ends */
+ }
+
+ @media only screen and (max-width:575px){
+    /* hero-section-starts */
+    .event_hero_section {
+        padding: 160px 0px;
+        padding-bottom: 300px;
+    }
+        .event_hero_heading h1 {
+        font-size: 42px;
+    }
+        .menu-item a {
+        font-size: 13px;
+        padding: 12px 30px;
+    }
+        .event_custom_dropdown li a {
+         font-size: 13px;
+        padding: 12px 30px;
+    }
+    .event_custom_dropdown {
+        top: 45px;
+    }
+    .menu-item a i {
+        font-size: 13px;
+    }
+    /* hero-section-ends */
+
+    /* package-section-starts */
+        .package_content {
+        padding: 25px 0;
+    }
+        .package_content h2 {
+        font-size: 30px;
+    }
+        .event_content_wrapper {
+        padding: 60px 0;
+    }
+    .event_img {
+    height: 30px;
+    width: 30px;
+}
+    .event_text h2 {
+        font-size: 21px;
+    }
+    .event_content {
+    gap: 15px;
+}
+    /* package-section-ends */
+
+    /* perk-section-starts */
+        .perk_heading h2 {
+             padding: 25px 0;
+        font-size: 30px;
+    }
+    .perk_img {
+        max-width: 280px;
+        height: 280px;
+    }
+        .perk_main_img {
+        height: 500px;
+    }
+    /* perk-section-ends */
+
+    /* feature-section-starts */
+        .feature_heading h2 {
+        font-size: 30px;
+    }
+       .common_feature_swipper_btn {
+        top: 65% !important;
+    }
+    .feature_content h3 {
+    font-size: 16px;
+}
+.feature_content p {
+    font-size: 14px;
+}
+    /* feature-section-ends */
+
+    /* faq-section-starts */
+     .event-accordion {
+        padding: 0 15px;
+    }
+    .event-accordion-section a {
+margin: 7px  0;
+font-size: 16px;
+}
+    .event_faq_heading h2 {
+        font-size: 30px;
+        padding: 25px 0;
+    }
+    /* faq-section-ends */
+ }
+ 
+ @media only screen and (max-width:480px){
+    /* hero-section-starts */
+        .event_hero_heading h1 {
+        font-size: 35px;
+    }
+        .event_hero_section {
+        padding: 120px 0px;
+        padding-bottom: 250px;
+    }
+        .menu-item a {
+        font-size: 12px;
+    }
+        .menu-item a i {
+        font-size: 12px;
+    }
+    .event_custom_dropdown li a {
+        font-size: 12px;
+    }
+    /* hero-section-ends */
+
+    /* package-section-starts */
+        .package_content h2 {
+        font-size: 25px;
+    }
+        .event_text h2 {
+        font-size: 18px;
+    }
+        .event_img {
+        height: 25px;
+        width: 25px;
+    }
+    /* package-section-ensd */
+
+    /* perk-section-starts */
+        .perk_heading h2 {
+        font-size: 25px;
+    }
+        .perk_img {
+        max-width: 240px;
+        height: 240px;
+    }
+    .perk_btn {
+    margin-top: 30px;
+}
+    .perk_main_img {
+        height: 400px;
+    }
+    /* perk-section-ends */
+
+    /* feature-section-starts */
+        .feature_heading h2 {
+        font-size: 25px;
+    }
+    .feature_img {
+        height: 300px;
+    }
+        .common_feature_swipper_btn i {
+        font-size: 25px;
+    }
+        .common_feature_swipper_btn {
+        top: 53% !important;
+    }
+    /* feature-section-ends */
+
+    /* faq-section-starts */
+        .event_faq_heading h2 {
+        font-size: 25px;
+        padding: 25px 15px;
+    }
+    /* faq-section-ends */
+ }
+ 
+ @media only screen and (max-width:360px){
+    /* hero-section-starts */
+        .event_hero_section {
+        padding: 70px 0px;
+        padding-bottom: 200px;
+    }
+        .event_hero_heading h1 {
+        font-size: 30px;
+    }
+    /* hero-section-ends */
+
+    /* perk-section-starts */
+        .perk_img {
+        max-width: 200px;
+        height: 200px;
+    }
+        .perk_main_img {
+        height: 330px;
+    }
+    /* perk-section-ends */
+
+    /* feature-section-starts */
+    .feature_section {
+    padding: 30px 0;
+}
+.feature_heading h2 {
+    padding-bottom: 20px;
+}
+    .feature_img {
+        height: 220px;
+    }
+        .common_feature_swipper_btn {
+        top: 38% !important;
+    }
+    /* feature-section-ends */
+ }
+ /* EVENT PAGE ENDS */ 
