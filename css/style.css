@@ -1129,9 +1129,6 @@ font-size: 18px;
 
 
 /* hero-section-starts */
-.event_link_content{
-  
-}
 .event_hero_section{
     padding: 300px 0px;
 }
@@ -1226,7 +1223,10 @@ font-size: 18px;
 }
 .menu-celebration li:hover > a i{
     color: #ffffff;
-    transform: rotate(180deg);
+   
+}
+.event_link_content ul li a.active> .mean-expand-event i{
+     transform: rotate(180deg);
 }
  .event_custom_dropdown li a:hover{
     background-color: #ee355f;
