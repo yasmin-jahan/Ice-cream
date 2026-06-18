@@ -174,10 +174,10 @@ function MatchHeight() {
       // spaceBetween: 30,
        slidesPerView: 3,
        loop: true,
-      // autoplay: {
-      //   delay: 3000,
-      //   disableOnInteraction: false,
-      // },
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
